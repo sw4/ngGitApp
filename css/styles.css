@@ -1,67 +1,133 @@
-.ngGa{
-    font-family:arial;
-}
-.ngGaTable{
-    width:400px;
-    overflow:hidden;
-    margin:10px;
-}
-.ngGaHeader{
-    background-color: #EAEAEA;
-    background-image: linear-gradient(#FAFAFA, #EAEAEA);
-    background-repeat: repeat-x;    
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border: 1px solid #D5D5D5;
-    line-height: 1;
-    color: #555555;
-    font-size: 14px;
-    line-height: 1.429;   
-    font-weight:bold;
-    padding:4px 7px;
-}
-.ngGaBody{
-    border: 1px solid #D5D5D5;
-    border-top:none;
-    font-size:12px;
-}
-.ngGaList,.ngGaList li, .ngGaList li .h1{
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-.ngGaList li {
-    overflow:hidden;
-    position:relative;
-}
-.ngGaList li a{ 
-    color: #777777;
-    display:block;
-    border-top: 1px solid #E5E5E5;
-    padding:7px 10px;
-    margin:0;
-    text-decoration:none;
-}
-.ngGaList li a:hover{ 
-    text-decoration:none;
-    color: #777777; 
-}
-.ngGaList li a .h1{
-    color: #4183C4;
-    font-size:14px; 
-    font-weight:bold;
-    display:block;
-    margin-bottom:4px;
-}
-.ngGaList li a:hover .h1{
-    color: #4183C4;
-    text-decoration:underline;
-}
-.ngGaList li a .time{
-    top:7px;
-    right:10px;
-    font-size:8px;
-    text-transform:uppercase;
-    color:#c0c0c0;
-    position:absolute;
+.ngGa{
+
+    font-family:arial;
+    text-align:left;
+}
+
+.ngGaTable{
+
+    width:400px;
+
+    overflow:hidden;
+
+    margin:10px;
+
+}
+
+.ngGaHeader{
+
+    background-color: #EAEAEA;
+
+    background-image: linear-gradient(#FAFAFA, #EAEAEA);
+
+    background-repeat: repeat-x;    
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    border: 1px solid #D5D5D5;
+
+    line-height: 1;
+
+    color: #555555;
+
+    font-size: 14px;
+
+    line-height: 1.429;   
+
+    font-weight:bold;
+
+    padding:4px 7px;
+
+}
+
+.ngGaBody{
+
+    border: 1px solid #D5D5D5;
+
+    border-top:none;
+
+    font-size:12px;
+
+}
+
+.ngGaList,.ngGaList li, .ngGaList li .h1{
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.ngGaList li {
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.ngGaList li a{ 
+
+    color: #777777;
+
+    display:block;
+
+    border-top: 1px solid #E5E5E5;
+
+    padding:7px 10px;
+
+    margin:0;
+
+    text-decoration:none;
+
+}
+
+.ngGaList li a:hover{ 
+
+    text-decoration:none;
+
+    color: #777777; 
+
+}
+
+.ngGaList li a .h1{
+
+    color: #4183C4;
+
+    font-size:14px; 
+
+    font-weight:bold;
+
+    display:block;
+
+    margin-bottom:4px;
+
+}
+
+.ngGaList li a:hover .h1{
+
+    color: #4183C4;
+
+    text-decoration:underline;
+
+}
+
+.ngGaList li a .time{
+
+    top:7px;
+
+    right:10px;
+
+    font-size:8px;
+
+    text-transform:uppercase;
+
+    color:#c0c0c0;
+
+    position:absolute;
+
 }
