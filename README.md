@@ -1,7 +1,7 @@
 ngGitApp
 =====
 
-Angular.js GitHub Widget
+Angular/jQuery GitHub Widget
 
 Currently coded to return a list of repositories for a given user.
 
