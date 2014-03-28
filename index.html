@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>ngGitApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">                    
+        <!-- ngGa CSS -->
+        <link href="css/styles.css" rel="stylesheet">         
+    </head>
+    <body data-ng-app="ngGa">         
+        <section data-ng-controller="gitListController" ng-init="getRepos('sw4')" class='ngGa'>           
+            <div class='ngGaTable'>
+                <div class='ngGaHeader'>
+                    Repositories
+                </div>
+                <ul class='ngGaList ngGaBody'>
+                    <li ng-repeat="repo in repos">
+                        <a href='{{repo.html_url}}' target="_blank">
+                            <span class='h1'>{{repo.name}}</span>
+                            {{repo.description}}
+                            <span class='time'>updated {{repo.timeago}}</span>
+                        </a>
+                    </li>
+                </ul>        
+            </div>
+        <section>
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>    
+        <!-- Underscore -->    
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>   
+        <!-- Angular.js -->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+        <!-- Timeago.js -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>        
+        <!-- ngGa Model/Controllers (Angular) -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
